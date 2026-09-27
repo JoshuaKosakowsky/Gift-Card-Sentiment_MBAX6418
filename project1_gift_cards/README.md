@@ -7,7 +7,13 @@ word-list emotion baseline.
 ![Evaluation dashboard](report/dashboard_full.png)
 
 ---
+## Executive summary
+
+> Alongside Hermes using Deepseek V4 Flash, a Sentiment Analysis dashboard was able to be created with relative ease and speed. While the metrics aren't phenomenal, I think this is a good starting point for a project and shows how important the need for Analysts still is even with A.I. at it's current state. 
+
+---
 ## Table of contents
+- [Executive summary](#executive-summary)
 - [Data source](#data-source)
 - [Pipeline & method](#pipeline--method)
 - [Deliverables](#deliverables)
@@ -17,6 +23,7 @@ word-list emotion baseline.
 - [Q3 — LLM emotions vs the NRC word list](#q3--llm-emotions-vs-the-nrc-word-list)
 - [Q4 — Bugs and issues encountered](#q4--bugs-and-issues-encountered)
 - [Reproducing the run](#reproducing-the-run)
+- [Reflections & next steps](#reflections--next-steps)
 
 ---
 
@@ -208,3 +215,17 @@ uv run python -m pytest -m unit                         # 46 offline unit tests
 ```
 
 `.env` holds credentials and is gitignored; each teammate uses their own endpoint.
+
+---
+
+## Reflections & next steps
+
+> I think what surprised me the most is how similar the visual output is from to professors. Since the data and the model are the same ones, the expected outcome is hard to differentiate as unique on a simple startup run like this project provided. However, there are some changes I think that would make this more effective and a nicer end product.
+
+- *Grouped Outputs*
+   -  The current outputs at the top are lazily tossed in to the report. Dividing this up based on Positive/Neutral/Negative or Precision/Recall may create a stronger visual.
+- *Where the mistakes land*
+   -  For some reason, the agent didn't color code the value bars in the output, making the viewer rely on the number output itself. While 3 has the highest at 44 and all others are in single digits, it doesn't show this well at all.
+- *Layout*
+   -  It tries to format the output as optimized as possible, but switching between my laptop to regular screens to ultra wide screen I can see some formatting issues that make the readme and website slightly off. Nothing major, but would need to be addressed for a client.
+   
