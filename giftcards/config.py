@@ -10,7 +10,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-# root = project1_gift_cards/
+# Root of the dedicated assignment repository.
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
