@@ -2,7 +2,7 @@
 
 Ground rules, conventions, and workflow standards for **any agent or collaborator** working in this repository, including AI coding agents (Hermes, Claude Code, GitHub Copilot, etc.). Read this file before making any change.
 
-This is a **group project** for the course *MBAX 6418 — Building Business Solutions with Generative AI and LLMs*. The repo tracks projects and assignments. All work flows through **issues** and **pull requests** — never commit directly to the protected branch.
+This is a **group project** for the course *MBAX 6418 — Building Business Solutions with Generative AI and LLMs*. This repository contains Assignment 1: Gift Card Sentiment and Emotion Analysis. Other course assignments belong in separate repositories. All work flows through **issues** and **pull requests** — never commit directly to the protected branch.
 
 ---
 
